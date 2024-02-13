@@ -1,0 +1,2 @@
+在github里下载：dong.wav,ding.wav,common.res储存到"resources"文件里
+.pmdl和.umdl放在"my_snowboy"(注:.pmdl要向官网)
