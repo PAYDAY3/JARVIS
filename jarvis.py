@@ -241,7 +241,7 @@ def main():
 
         wake_command = recognize_sphinx(takecommand()).lower()
         user_input = None
-        print(等待唤醒词")
+        print("等待唤醒词")
         logging.info("等待唤醒词")
         if "退出" in wake_command or "结束" in wake_command:
             print("程序已退出")
