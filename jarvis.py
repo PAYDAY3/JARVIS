@@ -180,7 +180,7 @@ def speech_listener():
         while True:
             audio = recognizer.listen(source)
             try:
-                text = recognizer.recognize_google(audio, language="zh-CN")
+                text = recognizer.recognize_sphinx(audio, language="zh-CN")
                 print("识别结果：", text)
                 if "保存文件" in text:
                     # 解析出要保存的文件名
