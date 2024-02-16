@@ -67,7 +67,7 @@ def takecommand():
         recognizer.operation_timeout = 5  # 最长等待时间（秒）
         recognizer.energy_threshold = 4000      # 设置音量阈值
         recognizer.dynamic_energy_threshold = True  # 自动调整音量阈值
-        recognizer.default = 'snowboy/resources/jarvis.umdl'
+        recognizer.default = 'snowboy/jarvis.umdl'
         audio = recognizer.listen(source, phrase_time_limit=5)
     try:
         print("Recognizing...")  # 识别中...
@@ -357,7 +357,7 @@ if __name__ == "__main__":
             logging.info(f"程序发生异常：{error}")
         finally:
             try:
-                main_program_logic("./program_folder")  # 执行主程序的逻辑
+                main_program_logic("program_folder")  # 执行主程序的逻辑
             except Exception as error:
                 print(f"程序发生异常：{error}")
                 logging.info(f"程序发生异常：{error}")
