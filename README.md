@@ -20,6 +20,8 @@ TextEditor.py是文件管理程序，用于语音删除、创造、搜索、打�
 
 thread.py是多线程程序，用于执行多个任务
 
+这个项目作为备用，请请查看https://github.com/PAYDAY3/JARVIS-BUTLER
+
 ……………如有更多创新可下载使用
 
 今后的工作范围
